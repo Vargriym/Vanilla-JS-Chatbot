@@ -3,18 +3,17 @@ html,body{
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(90deg, rgba(1,1,88,0.82),rgb(1,1,29));
-    transition: 1s all ease-in-out;
+    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);    transition: 1s all ease-in-out;
 }
 #init{
     margin-top: 2rem;
-    background: indianred;
+    background: #f1705b;
     border: none;
     padding: 15px 25px;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 500;
-    color: aliceblue;
+    font-weight: 600;
+    color: #000;
     cursor: pointer;
 }
 .desc p{
@@ -25,7 +24,7 @@ body{
 .text{
     font-size: 65px;
     font-weight: 800;
-    color: cadetblue;
+    color: #385a64;
     margin: 0;
 }
 .parent{
@@ -37,8 +36,8 @@ body{
     align-items: center;
 }
 .bot-img{
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
 }
 .child{
     box-shadow: 0 0 2px salmon;
@@ -154,7 +153,7 @@ body{
 .opt{
     padding: 5px 20px;
     columns: lightsalmon;
-    border: 1px solid blueviolet;
+    border: 1px solid #385a64;
     border-radius: 1rem;
     margin: 0.3rem 0.5rem;
     display: inline-block;
@@ -163,20 +162,30 @@ body{
     background: white;
     text-align: center;
     font-size: 14px;
-    color: blueviolet;
+    color: #385a64;
 }
+
+#more-btn {
+  color: #000;
+}
+
+a:-webkit-any-link {
+  color: #385a64;
+  cursor: pointer;
+}
+
 .link{
     text-decoration: none;
     display: block;
     text-align: center;
     color: aliceblue !important;
-    background: blueviolet;
+    background: #F1705B;
 }
 .m-link{
     text-decoration: none;
 }
 .link:active{
     background: white;
-    border: 1px solid blueviolet;
-    color: blueviolet;
+    border: 1px solid #385a64;
+    color: #385a64;
 }
