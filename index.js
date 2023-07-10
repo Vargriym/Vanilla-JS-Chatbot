@@ -12,7 +12,7 @@ const data= {
     },
     
     news: {
-        title:["Today's Top 5 Headlines"],
+        title:["Today's Top 3 Headlines"],
         options:["HawkEye 360 satellites to monitor illegal fishing in Pacific Islands","China’s Landspace set for second methalox rocket launch","Radio noise from satellite constellations could interfere with astronomers"],
         url : {
             more:"https://www.space.com/news",
@@ -216,7 +216,7 @@ function handleOptions(options,url){
         cbot.appendChild(opt);
     }
     let opt= document.createElement("span");
-    let inp= '<a class="m-link" href="'+url.more+'">'+'See more</a>';
+    let inp= '<a class="m-link" id="more-btn" href="'+url.more+'">'+'See more</a>';
 
     const isObjectEmpty= (url)=>{
         return JSON.stringify(url)=== "{}";
