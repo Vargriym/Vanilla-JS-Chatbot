@@ -1,4 +1,4 @@
-ChatBot helps companies to stand out with customer experience
+ChatBot helps companies to stand out with customer experience.
 
 Live demo: https://vargriym.github.io/Vanilla-JS-Chatbot/
 
